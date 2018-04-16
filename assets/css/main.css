@@ -1,0 +1,191 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.corps {
+padding-top: 150px;
+	background-color: white;
+}
+
+.container {
+  width: 90%;
+  min-width: 740px;
+  margin: 0 auto;
+}
+
+header li {
+	display: inline;
+	float: right;
+}
+
+header ul .title{
+  float: left
+}
+
+img.logo {
+	float: left;
+}
+
+nav {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main-title{
+  text-align: center
+}
+
+/* Header */
+
+header {
+	background-color: #80bfff;
+	border-bottom: 1px solid #aaa;
+	float: left;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+
+header a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Amaranth', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+header a.active, header a:hover {
+	color: #3d3d3d;
+}
+
+header li {
+	margin-right: 30px;
+}
+
+/* header large */
+header.large {
+	height: 120px;
+
+}
+header.large img {
+  margin-top: 30px;
+}
+header.large li {
+		font-size: 20px;
+	margin-top: 52px;
+}
+
+/* header small */
+
+header.small {
+	height: 50px;
+}
+header.small img {
+}
+header.small li {
+			font-size: 15px;
+	margin-top: 17px;
+}
+
+/* Transitions */
+
+header,
+nav,
+a,
+title,
+h1 {
+	transition: .6s;
+	-moz-transition: .6s;
+	-webkit-transition: .6s ;
+	-o-transition: .6s ;
+}
+
+header li{
+	transition: .4s;
+	-moz-transition: .4s;
+	-webkit-transition: .4s ;
+	-o-transition: .4s ;
+}
+
+
+header li:hover{
+	color: white
+}
+
+.main-title{
+  text-align: center
+}
+
+#nous{
+  padding: 25px;
+  text-align: justify;
+  background-color: #e6f2ff
+}
+#luxo{
+  padding: 25px;
+  text-align: justify;
+  background-color:white
+}
+
+#rdv{
+  padding: 25px;
+  text-align: justify;
+  background-color:#e6f2ff
+}
+
+
+#contact{
+  padding: 25px;
+  text-align: justify;
+  background-color: #e6f2ff
+}
+
+
+
+#horaires{
+  padding: 25px;
+  text-align: justify;
+  background-color:white
+}
+
+#rdv{
+  padding: 25px;
+  text-align: justify;
+  background-color:#e6f2ff
+}
+
+footer{
+  text-align: center
+}
+
+h2{
+	text-align: center
+}
+
+#map {
+	  background-color:#e6f2ff
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	 height: 450px;
+	 width: 100%;
+	}
+
+	.map h2
+	{
+		margin-bottom: 20px;
+		margin-top: 20px
+	}
+
+	.container label{
+		margin-right:200px;
+		text-align:left
+	}
