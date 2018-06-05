@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
 
     // CHANGE THE TWO LINES BELOW
-    $email_to = "quent.guillaume@gmail.com ";
+    $email_to = "Luxo.lesherbiers@gmail.com";
 
     $email_subject = "Demande de Contact";
 
@@ -71,7 +71,7 @@ $headers = 'From: '.$email_from."\r\n".
 ?>
 
 <!-- place your own success html below -->
-
+  <a href='http://www.quentinguillaume.com/Paris-Colin/' class= 'title'>Retour</a>
 Merci de nous avoir contacter. Nous vous contacterons le plus rapidement possible
 
 <?php

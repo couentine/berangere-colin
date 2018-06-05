@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} !^berangere-luxo.com$ [NC]
+RewriteRule ^(.*)$ http://berangere-luxo.com/$1 [L,R=301]

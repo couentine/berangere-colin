@@ -1,0 +1,1 @@
+function adjust_textarea(e){e.style.height="20px",e.style.height=e.scrollHeight+"px"}$(document).on("scroll",function(){100<$(document).scrollTop()?$("header").removeClass("large").addClass("small"):$("header").removeClass("small").addClass("large")}),window.addEventListener("hashchange",function(){scrollBy(0,-90)});
